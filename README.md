@@ -4,7 +4,35 @@ This is the readme file for the backend part of the Simple Book Catalog Applicat
 
 # Overview
 
-The Simple Book Catalog Application is a full stack web project that allows users to view and manage a catalog of books. The backend is built using [insert technologies/frameworks used]. It provides various API routes to handle user authentication, book management, and data retrieval.
+The Simple Book Catalog Application is a full stack web project that allows users to view and manage a catalog of books. The backend is built using:
+
+## Technologies/Frameworks Used:
+
+- Node.js: A JavaScript runtime environment used for building server-side applications.
+- Express.js: A web application framework for Node.js that simplifies the development of server-side applications.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript and provides static type checking.
+- MongoDB: A popular NoSQL database used for storing and retrieving data.
+- Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js, providing a higher-level abstraction for interacting with the database.
+- JWT (JSON Web Token): A standard for securely transmitting information between parties as a JSON object.
+- bcrypt: A library used for hashing passwords and comparing hashed passwords for authentication.
+- cors: A middleware that enables Cross-Origin Resource Sharing, allowing requests from different origins.
+- dotenv: A module that loads environment variables from a .env file into process.env.
+- Winston: A versatile logging library for Node.js applications.
+- winston-daily-rotate-file: A transport for Winston that rotates log files on a daily basis.
+- zod: A TypeScript-first schema validation library that makes it easy to validate data and ensure its integrity.
+
+## Dev Dependencies:
+
+- @types/cors: TypeScript type definitions for the cors module.
+- @types/express: TypeScript type definitions for the express module.
+- eslint-config-prettier: An ESLint configuration that disables formatting rules conflicting with Prettier.
+- husky: A Git hook framework used to run scripts before committing or pushing code.
+- lint-staged: A tool used to run scripts on staged files in Git before committing.
+- prettier: A code formatter that enforces consistent code style.
+- ts-node-dev: A development tool that restarts the server when changes are detected, using TypeScript directly.
+- typescript: A programming language that enables static typing in JavaScript.
+
+It provides various API routes to handle user authentication, book management, and data retrieval.
 
 # Setup
 
