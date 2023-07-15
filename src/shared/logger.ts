@@ -56,4 +56,4 @@ const errorlogger = createLogger({
   ],
 });
 
-// export { errorlogger, logger };
+export { errorlogger, logger };
